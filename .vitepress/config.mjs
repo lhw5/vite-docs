@@ -19,7 +19,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '示例', link: '/views/examples/markdown-examples' },
+      { text: 'Demo', link: '/views/demo/eleme' },
       { text: '学习笔记', link: '/views/learningNotes/git' },
       {
         text: '前端',
@@ -62,6 +62,18 @@ export default defineConfig({
         items: [
           { text: 'Markdown 示例', link: '/views/examples/markdown-examples' },
           { text: '运行时 API 示例', link: '/views/examples/api-examples' }
+        ]
+      },
+      {
+        text: 'Demo 演示',
+        collapsed: false,
+        items: [
+          { text: '饿了么', link: '/views/demo/eleme' },
+          { text: '数据可视化', link: '/views/demo/echarts' },
+          { text: 'uniapp 商城', link: '/views/demo/uniapp-shop' },
+          { text: '电商后台管理', link: '/views/demo/vue2-shop-admin' },
+          { text: '京东商城', link: '/views/demo/JD-Mall' },
+          { text: '待办事项清单', link: '/views/demo/todo-list' }
         ]
       },
       {
