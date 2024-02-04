@@ -4,18 +4,18 @@ layout: home
 
 hero:
   name: "前端小林"
-  text: "你好世界！"
+  text: "你好世界"
   tagline: 学习笔记、面试题、资源分享。
   image:
-    src: /vitepress-logo-large.webp
+    src: /assets/img/vitepress-logo-large.webp
     alt: 梦和远方
   actions:
     - theme: brand
       text: Markdown 示例
-      link: /markdown-examples
+      link: /views/examples/markdown-examples
     - theme: alt
       text: API 示例
-      link: /api-examples
+      link: /views/examples/api-examples
 
 features:
   - icon: 🛠️

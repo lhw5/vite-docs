@@ -5,20 +5,21 @@ export default defineConfig({
   lang: "zh-CN",
   title: "前端小林",
   description: "A VitePress Site",
+  base: '/vite-docs/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'icon', href: '/vitepress-logo-mini.svg' }]
+    ['link', { rel: 'icon', href: '/vite-docs/assets/img/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/vite-docs/assets/img/vitepress-logo-mini.svg' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/vitepress-logo-mini.svg',
+    logo: '/assets/img/vitepress-logo-mini.svg',
     search: {
       provider: 'local'
     },
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '示例', link: '/markdown-examples' },
+      { text: '示例', link: '/views/examples/markdown-examples' },
       { text: '学习笔记', link: '/views/learningNotes/git' },
       {
         text: '前端',
@@ -59,8 +60,8 @@ export default defineConfig({
         text: '示例',
         collapsed: false,
         items: [
-          { text: 'Markdown 示例', link: '/markdown-examples' },
-          { text: '运行时 API 示例', link: '/api-examples' }
+          { text: 'Markdown 示例', link: '/views/examples/markdown-examples' },
+          { text: '运行时 API 示例', link: '/views/examples/api-examples' }
         ]
       },
       {
