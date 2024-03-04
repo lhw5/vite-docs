@@ -24,35 +24,11 @@ export default defineConfig({
       {
         text: '前端',
         items: [
-          { text: 'HTML5', link: 'https://www.xp.cn/e/html5/' },
-          { text: 'CSS3', link: 'https://www.w3cschool.cn/css3/css3-tutorial.html' },
-          { text: 'JavaScript(ES6+)', link: 'https://www.w3cschool.cn/escript6/' },
-          { text: 'TypeScript', link: 'https://www.typescriptlang.org/' },
-          { text: 'Vue(2/3)', link: 'https://cn.vuejs.org/guide/introduction' },
-          { text: '公众平台及小程序', link: 'https://developers.weixin.qq.com/miniprogram/dev/framework/' },
-          { text: 'Uniapp', link: 'https://uniapp.dcloud.net.cn/' },
-          { text: 'Three.js', link: 'https://threejs.org/' }
+          { text: '前端进阶之旅', link: 'https://interview.poetries.top/' },
+          { text: '前端面试题汇总', link: 'https://www.yuque.com/cuggz/interview' },
+          { text: '前端知识进阶', link: 'https://www.yuque.com/cuggz/feplus' },
         ]
       },
-      { 
-        text: '后端', 
-        items: [
-          { text: 'Spring Framework', link: 'https://spring.io/projects/spring-framework' },
-          { text: 'Spring Boot', link: 'https://spring.io/projects/spring-boot' },
-          { text: 'Hibernate', link: 'https://hibernate.org/' },
-          { text: 'Maven', link: 'https://maven.apache.org/' },
-          { text: 'Java EE', link: 'https://www.oracle.com/java/technologies/java-ee-glance.html' }
-        ]
-      },
-      {
-        text: '人工智能',
-        items: [
-          { text: '机器学习', link: 'https://developers.google.com/machine-learning/crash-course/ml-intro' },
-          { text: '深度学习', link: 'http://neuralnetworksanddeeplearning.com/' },
-          { text: '自然语言处理', link: 'https://www.nltk.org/' },
-          { text: '计算机视觉', link: 'https://opencv.org/' }
-        ]
-      }
     ],
 
     sidebar: [
